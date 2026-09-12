@@ -11,6 +11,12 @@ Manual coin sorting and counting can be time-consuming and prone to human error.
 
 The system detects the presence of a coin, measures its weight, identifies the corresponding coin denomination, and controls the sorting mechanism to direct the coin to the appropriate collection section. The counting information is displayed on a 16x2 I2C LCD
 
+## System Architecture
+
+The overall architecture of the coin sorting and counting machine is shown below.
+
+![System Block Diagram](blockdiagram.jpg)
+
 ## Objectives
 
 - Automate the sorting of Indian coins.
