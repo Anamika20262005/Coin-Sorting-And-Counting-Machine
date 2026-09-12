@@ -2,11 +2,14 @@
 
 A weight-based automated Indian coin sorting and counting machine developed using ESP32. The system identifies coins based on their measured weight, automatically sorts them into designated sections, and keeps track of the number of coins processed.
 
+
+![Coin Sorter Prototype](prototype_.jpeg)
+
 ## Project Overview
 
 Manual coin sorting and counting can be time-consuming and prone to human error. This project aims to automate the process using a load cell, HX711 amplifier, sensors, servo motors, and an ESP32 microcontroller.
 
-The system detects the presence of a coin, measures its weight, identifies the corresponding coin denomination, and controls the sorting mechanism to direct the coin to the appropriate collection section. The counting information is displayed on a 16x2 I2C LCD.
+The system detects the presence of a coin, measures its weight, identifies the corresponding coin denomination, and controls the sorting mechanism to direct the coin to the appropriate collection section. The counting information is displayed on a 16x2 I2C LCD
 
 ## Objectives
 
